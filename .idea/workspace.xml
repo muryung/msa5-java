@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa7d604-b265-4efd-a2a4-61c64f8fea55" name="Changes" comment="" />
+    <list default="true" id="1aa7d604-b265-4efd-a2a4-61c64f8fea55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e01datatype/E01DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e02operator/E02Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e03if/E03If.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +28,116 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="msa5-java" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="msa5-java" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muryung&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muryung/msa5-java.git&quot;,
+    &quot;accountId&quot;: &quot;491383b0-d3e7-4fb6-8311-59c4aea3b846&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0784216936299665E-15" />
+      <entry key="MS500" value="0.0010152143808052972" />
+      <entry key="S2" value="0.18580985901310898" />
+      <entry key="S5" value="0.9842069895234361" />
+      <entry key="S10" value="3.179789271644669" />
+      <entry key="S30" value="9.687722491632735" />
+      <entry key="S60" value="13.433393910512494" />
+      <entry key="M2" value="16.04987788589946" />
+      <entry key="M5" value="20.36336291959071" />
+      <entry key="M10" value="28.287163768319047" />
+      <entry key="M15" value="36.101853542400846" />
+      <entry key="M30" value="58.1518364588742" />
+      <entry key="H1" value="95.26811406354705" />
+      <entry key="H2" value="146.732936621062" />
+      <entry key="H4" value="197.84328203730524" />
+      <entry key="D1" value="267.5880783605586" />
+      <entry key="W1" value="283.25806305719243" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000252000179" />
+      <entry key="S2" value="1.0126158151637812" />
+      <entry key="S5" value="1.1860257916532477" />
+      <entry key="S10" value="1.5273433494252333" />
+      <entry key="S30" value="2.2267938664909854" />
+      <entry key="S60" value="2.55697429854569" />
+      <entry key="M2" value="2.769905702917706" />
+      <entry key="M5" value="3.2216056242395763" />
+      <entry key="M10" value="4.116753163508102" />
+      <entry key="M15" value="4.907357862161028" />
+      <entry key="M30" value="6.946370897567261" />
+      <entry key="H1" value="10.191503365958116" />
+      <entry key="H2" value="14.623819738367986" />
+      <entry key="H4" value="19.089555555157887" />
+      <entry key="D1" value="25.32689312169262" />
+      <entry key="W1" value="26.750172356129006" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.5806104505893057E-4" />
+      <entry key="MS500" value="0.19160562068274997" />
+      <entry key="S2" value="0.7497876452375463" />
+      <entry key="S5" value="1.8225239382213687" />
+      <entry key="S10" value="4.413042718565158" />
+      <entry key="S30" value="11.72115298914976" />
+      <entry key="S60" value="15.8679149652224" />
+      <entry key="M2" value="18.749763902473696" />
+      <entry key="M5" value="23.550254684153263" />
+      <entry key="M10" value="32.37967253807017" />
+      <entry key="M15" value="40.98876579957006" />
+      <entry key="M30" value="65.08253086770102" />
+      <entry key="H1" value="105.44707835861358" />
+      <entry key="H2" value="161.34664793347045" />
+      <entry key="H4" value="216.92563031923987" />
+      <entry key="D1" value="292.91323954803454" />
+      <entry key="W1" value="310.0079702830709" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3MBCFAFZyYyMN2Kzni2qkirdyhm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,11 +145,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.E03If.executor": "Run",
+    "Application.E04Loop.executor": "Run",
     "Gradle.msa5-java [:org.example.Main.main()].executor": "Run",
+    "Gradle.msa5-java [:org.example.e02operator.E02Operator.main()].executor": "Run",
+    "Gradle.msa5-java [:org.example.e03if.E03If.main()].executor": "Run",
+    "Gradle.msa5-java [build].executor": "Run",
+    "Gradle.msa5-java [clean].executor": "Run",
+    "Gradle.msa5-java.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -44,9 +166,131 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Students/muryung/workspace/msa5-java/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="E02Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e02operator.E02Operator" />
+      <module name="msa5-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.e02operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="msa5-java.main" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="msa5-java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="msa5-java [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.E02Operator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.msa5-java [build]" />
+      <item itemvalue="Gradle.msa5-java [clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.msa5-java [build]" />
+        <item itemvalue="Gradle.msa5-java [clean]" />
+        <item itemvalue="Application.E02Operator" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -18,3 +18,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.withType(JavaExec).configureEach {
+    systemProperty "file.encoding", "UTF-8"
+}
