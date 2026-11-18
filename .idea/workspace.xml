@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa7d604-b265-4efd-a2a4-61c64f8fea55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e01datatype/E01DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e02operator/E02Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e03if/E03If.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1aa7d604-b265-4efd-a2a4-61c64f8fea55" name="Changes" comment="데이터 타입, 연산자, 분기문 완료&#10;반복문 작업 중">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e05array/E05Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/AccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/FlyingFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/MainOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/OverloadingOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/Whale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,61 +77,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0784216936299665E-15" />
-      <entry key="MS500" value="0.0010152143808052972" />
-      <entry key="S2" value="0.18580985901310898" />
-      <entry key="S5" value="0.9842069895234361" />
-      <entry key="S10" value="3.179789271644669" />
-      <entry key="S30" value="9.687722491632735" />
-      <entry key="S60" value="13.433393910512494" />
-      <entry key="M2" value="16.04987788589946" />
-      <entry key="M5" value="20.36336291959071" />
-      <entry key="M10" value="28.287163768319047" />
-      <entry key="M15" value="36.101853542400846" />
-      <entry key="M30" value="58.1518364588742" />
-      <entry key="H1" value="95.26811406354705" />
-      <entry key="H2" value="146.732936621062" />
-      <entry key="H4" value="197.84328203730524" />
-      <entry key="D1" value="267.5880783605586" />
-      <entry key="W1" value="283.25806305719243" />
+      <entry key="MS100" value="1.9965141855001926E-35" />
+      <entry key="MS500" value="1.1666886714693284E-7" />
+      <entry key="S2" value="0.026587796450877183" />
+      <entry key="S5" value="0.41291641605298796" />
+      <entry key="S10" value="1.1046479901024648" />
+      <entry key="S30" value="3.6757409447395153" />
+      <entry key="S60" value="8.281459453764581" />
+      <entry key="M2" value="14.14728967793972" />
+      <entry key="M5" value="20.3858576975901" />
+      <entry key="M10" value="24.91783213516274" />
+      <entry key="M15" value="29.06571869374992" />
+      <entry key="M30" value="40.81318123371774" />
+      <entry key="H1" value="60.523833947038966" />
+      <entry key="H2" value="103.79893531639249" />
+      <entry key="H4" value="195.19653405153414" />
+      <entry key="D1" value="459.3549885760799" />
+      <entry key="W1" value="548.972564079166" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000252000179" />
-      <entry key="S2" value="1.0126158151637812" />
-      <entry key="S5" value="1.1860257916532477" />
-      <entry key="S10" value="1.5273433494252333" />
-      <entry key="S30" value="2.2267938664909854" />
-      <entry key="S60" value="2.55697429854569" />
-      <entry key="M2" value="2.769905702917706" />
-      <entry key="M5" value="3.2216056242395763" />
-      <entry key="M10" value="4.116753163508102" />
-      <entry key="M15" value="4.907357862161028" />
-      <entry key="M30" value="6.946370897567261" />
-      <entry key="H1" value="10.191503365958116" />
-      <entry key="H2" value="14.623819738367986" />
-      <entry key="H4" value="19.089555555157887" />
-      <entry key="D1" value="25.32689312169262" />
-      <entry key="W1" value="26.750172356129006" />
+      <entry key="MS500" value="1.0000000012288874" />
+      <entry key="S2" value="1.0059207678379312" />
+      <entry key="S5" value="1.1285142283320084" />
+      <entry key="S10" value="1.3584888120039569" />
+      <entry key="S30" value="1.710381869567168" />
+      <entry key="S60" value="1.8428438600687413" />
+      <entry key="M2" value="1.9202577829483989" />
+      <entry key="M5" value="2.153963606018488" />
+      <entry key="M10" value="3.2153790061731504" />
+      <entry key="M15" value="4.570354335058122" />
+      <entry key="M30" value="8.074697756456018" />
+      <entry key="H1" value="12.856419749854046" />
+      <entry key="H2" value="20.847637682216213" />
+      <entry key="H4" value="34.27770375658723" />
+      <entry key="D1" value="67.45229599861918" />
+      <entry key="W1" value="78.01541361197715" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.5806104505893057E-4" />
-      <entry key="MS500" value="0.19160562068274997" />
-      <entry key="S2" value="0.7497876452375463" />
-      <entry key="S5" value="1.8225239382213687" />
-      <entry key="S10" value="4.413042718565158" />
-      <entry key="S30" value="11.72115298914976" />
-      <entry key="S60" value="15.8679149652224" />
-      <entry key="M2" value="18.749763902473696" />
-      <entry key="M5" value="23.550254684153263" />
-      <entry key="M10" value="32.37967253807017" />
-      <entry key="M15" value="40.98876579957006" />
-      <entry key="M30" value="65.08253086770102" />
-      <entry key="H1" value="105.44707835861358" />
-      <entry key="H2" value="161.34664793347045" />
-      <entry key="H4" value="216.92563031923987" />
-      <entry key="D1" value="292.91323954803454" />
-      <entry key="W1" value="310.0079702830709" />
+      <entry key="MS100" value="0.023519480428297917" />
+      <entry key="MS500" value="0.4723735287396795" />
+      <entry key="S2" value="0.8474926102119567" />
+      <entry key="S5" value="1.3614910805261888" />
+      <entry key="S10" value="2.2749843675623946" />
+      <entry key="S30" value="5.264701393777099" />
+      <entry key="S60" value="10.04334278803907" />
+      <entry key="M2" value="16.01711220258856" />
+      <entry key="M5" value="22.515096444474317" />
+      <entry key="M10" value="28.11713895808777" />
+      <entry key="M15" value="33.62195923568194" />
+      <entry key="M30" value="48.875091869555554" />
+      <entry key="H1" value="73.36852854794907" />
+      <entry key="H2" value="124.63527083794384" />
+      <entry key="H4" value="229.46354989207586" />
+      <entry key="D1" value="526.8032685028815" />
+      <entry key="W1" value="626.9872983585033" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -147,6 +147,8 @@
   "keyToString": {
     "Application.E03If.executor": "Run",
     "Application.E04Loop.executor": "Run",
+    "Application.E05Array.executor": "Run",
+    "Application.MainOOP.executor": "Run",
     "Gradle.msa5-java [:org.example.Main.main()].executor": "Run",
     "Gradle.msa5-java [:org.example.e02operator.E02Operator.main()].executor": "Run",
     "Gradle.msa5-java [:org.example.e03if.E03If.main()].executor": "Run",
@@ -157,6 +159,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -166,37 +169,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Students/muryung/workspace/msa5-java/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "preferences.sourceCode.JAVA"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="E02Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e02operator.E02Operator" />
-      <module name="msa5-java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.e02operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="msa5-java.main" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <method v="2">
@@ -226,70 +202,6 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="msa5-java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="msa5-java [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.E02Operator" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.msa5-java [build]" />
-      <item itemvalue="Gradle.msa5-java [clean]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.msa5-java [build]" />
-        <item itemvalue="Gradle.msa5-java [clean]" />
-        <item itemvalue="Application.E02Operator" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -321,5 +233,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="데이터 타입, 연산자, 분기문 완료&#10;반복문 작업 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 타입, 연산자, 분기문 완료&#10;반복문 작업 중" />
   </component>
 </project>
