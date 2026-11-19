@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa7d604-b265-4efd-a2a4-61c64f8fea55" name="Changes" comment="데이터 타입, 연산자, 분기문 완료&#10;반복문 작업 중">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e05array/E05Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/AccessModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/FlyingFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/MainOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/OverloadingOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/Whale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/ConstructOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/abstractclass/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/abstractclass/Monkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/FlyingFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/MainInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/interfaceedu/Whale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e04loop/E04Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e06oop/FlyingFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/inheritance/FlyingFish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e06oop/MainOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/MainOOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e06oop/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e06oop/inheritance/Whale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +62,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,61 +84,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9965141855001926E-35" />
-      <entry key="MS500" value="1.1666886714693284E-7" />
-      <entry key="S2" value="0.026587796450877183" />
-      <entry key="S5" value="0.41291641605298796" />
-      <entry key="S10" value="1.1046479901024648" />
-      <entry key="S30" value="3.6757409447395153" />
-      <entry key="S60" value="8.281459453764581" />
-      <entry key="M2" value="14.14728967793972" />
-      <entry key="M5" value="20.3858576975901" />
-      <entry key="M10" value="24.91783213516274" />
-      <entry key="M15" value="29.06571869374992" />
-      <entry key="M30" value="40.81318123371774" />
-      <entry key="H1" value="60.523833947038966" />
-      <entry key="H2" value="103.79893531639249" />
-      <entry key="H4" value="195.19653405153414" />
-      <entry key="D1" value="459.3549885760799" />
-      <entry key="W1" value="548.972564079166" />
+      <entry key="MS100" value="1.1321396218049365E-41" />
+      <entry key="MS500" value="6.484705537228295E-9" />
+      <entry key="S2" value="0.011833749986749527" />
+      <entry key="S5" value="0.4229238984775996" />
+      <entry key="S10" value="1.8223346619047778" />
+      <entry key="S30" value="5.265432181173512" />
+      <entry key="S60" value="7.232817654479826" />
+      <entry key="M2" value="9.143747930949662" />
+      <entry key="M5" value="12.867331175527493" />
+      <entry key="M10" value="19.992752449006822" />
+      <entry key="M15" value="29.33921021373285" />
+      <entry key="M30" value="56.54655843449982" />
+      <entry key="H1" value="95.41770518081064" />
+      <entry key="H2" value="154.6848372891101" />
+      <entry key="H4" value="259.8673739992402" />
+      <entry key="D1" value="666.5347194011764" />
+      <entry key="W1" value="846.4655346000635" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000012288874" />
-      <entry key="S2" value="1.0059207678379312" />
-      <entry key="S5" value="1.1285142283320084" />
-      <entry key="S10" value="1.3584888120039569" />
-      <entry key="S30" value="1.710381869567168" />
-      <entry key="S60" value="1.8428438600687413" />
-      <entry key="M2" value="1.9202577829483989" />
-      <entry key="M5" value="2.153963606018488" />
-      <entry key="M10" value="3.2153790061731504" />
-      <entry key="M15" value="4.570354335058122" />
-      <entry key="M30" value="8.074697756456018" />
-      <entry key="H1" value="12.856419749854046" />
-      <entry key="H2" value="20.847637682216213" />
-      <entry key="H4" value="34.27770375658723" />
-      <entry key="D1" value="67.45229599861918" />
-      <entry key="W1" value="78.01541361197715" />
+      <entry key="MS500" value="1.0000000261236865" />
+      <entry key="S2" value="1.0187946989572858" />
+      <entry key="S5" value="1.3457779315819154" />
+      <entry key="S10" value="1.985020953367644" />
+      <entry key="S30" value="3.0520296389760873" />
+      <entry key="S60" value="3.4952477921391853" />
+      <entry key="M2" value="4.007649842252677" />
+      <entry key="M5" value="6.0131285521258055" />
+      <entry key="M10" value="8.925004045295253" />
+      <entry key="M15" value="11.161199485196324" />
+      <entry key="M30" value="15.714852746522597" />
+      <entry key="H1" value="21.600579348846647" />
+      <entry key="H2" value="31.176944131593967" />
+      <entry key="H4" value="47.957128669929645" />
+      <entry key="D1" value="105.56314436753026" />
+      <entry key="W1" value="129.262972233662" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.023519480428297917" />
-      <entry key="MS500" value="0.4723735287396795" />
-      <entry key="S2" value="0.8474926102119567" />
-      <entry key="S5" value="1.3614910805261888" />
-      <entry key="S10" value="2.2749843675623946" />
-      <entry key="S30" value="5.264701393777099" />
-      <entry key="S60" value="10.04334278803907" />
-      <entry key="M2" value="16.01711220258856" />
-      <entry key="M5" value="22.515096444474317" />
-      <entry key="M10" value="28.11713895808777" />
-      <entry key="M15" value="33.62195923568194" />
-      <entry key="M30" value="48.875091869555554" />
-      <entry key="H1" value="73.36852854794907" />
-      <entry key="H2" value="124.63527083794384" />
-      <entry key="H4" value="229.46354989207586" />
-      <entry key="D1" value="526.8032685028815" />
-      <entry key="W1" value="626.9872983585033" />
+      <entry key="MS100" value="0.014578640492762609" />
+      <entry key="MS500" value="0.4292827303046586" />
+      <entry key="S2" value="0.8330231342461847" />
+      <entry key="S5" value="1.6183915032474252" />
+      <entry key="S10" value="3.6496734985768895" />
+      <entry key="S30" value="8.209892963698682" />
+      <entry key="S60" value="10.65981980591176" />
+      <entry key="M2" value="13.105594724197434" />
+      <entry key="M5" value="18.84269141607245" />
+      <entry key="M10" value="28.8842283200447" />
+      <entry key="M15" value="40.469078868036334" />
+      <entry key="M30" value="72.23484445393481" />
+      <entry key="H1" value="116.99789443678085" />
+      <entry key="H2" value="185.84630517380475" />
+      <entry key="H4" value="307.8117941752328" />
+      <entry key="D1" value="772.092407716136" />
+      <entry key="W1" value="975.7275159790752" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,6 +155,7 @@
     "Application.E03If.executor": "Run",
     "Application.E04Loop.executor": "Run",
     "Application.E05Array.executor": "Run",
+    "Application.MainInterface.executor": "Run",
     "Application.MainOOP.executor": "Run",
     "Gradle.msa5-java [:org.example.Main.main()].executor": "Run",
     "Gradle.msa5-java [:org.example.e02operator.E02Operator.main()].executor": "Run",
