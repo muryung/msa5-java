@@ -7,6 +7,7 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
+import java.util.ArrayList;
 
 public class DateMain {
     public static void main(String[] args) {
@@ -64,5 +65,29 @@ public class DateMain {
         LocalDate extractLocalDateFromNow = now.toLocalDate();
         System.out.println(extractLocalDateFromNow);
 
+        LocalDate start = LocalDate.of(2026, 9, 28);
+        LocalDate curr = LocalDate.now();
+
+        long progressDay = start.until(curr, ChronoUnit.DAYS);
+        int totalHours = 0;
+        ArrayList<LocalDate> holidays = new ArrayList<LocalDate>();
+        holidays.add(LocalDate.of(2026, 10, 3));
+        holidays.add(LocalDate.of(2026, 10, 5));
+        holidays.add(LocalDate.of(2026, 10, 9));
+
+        for (int i = 0; i <= progressDay; ++i) {
+            if (start.plusDays(i).getDayOfWeek() == DayOfWeek.SATURDAY
+            || start.plusDays(i).getDayOfWeek() == DayOfWeek.SUNDAY) {
+                continue;
+            }
+
+            if (holidays.contains(start.plusDays(i))) {
+                continue;
+            }
+
+            totalHours += 8;
+        }
+
+        System.out.println(totalHours);
     }
 }
